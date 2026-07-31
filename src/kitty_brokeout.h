@@ -1,5 +1,5 @@
 /*
- * Kitty Brokeout - kitty-protocol brick breaker.
+ * Kilix Brokeout - kitty-protocol brick breaker.
  */
 #ifndef KITTY_BROKEOUT_H
 #define KITTY_BROKEOUT_H

@@ -342,7 +342,7 @@ static void draw_hud(void)
     float s = G.scale;
     char buf[160];
     fill_rect(0, 0, W, 34 * s, 0x020617, 0.82f);
-    draw_text_shadow(16 * s, 10 * s, "KITTY BROKEOUT", 0x7dd3fc, 1.0f, 1);
+    draw_text_shadow(16 * s, 10 * s, "KILIX BROKEOUT", 0x7dd3fc, 1.0f, 1);
 
     snprintf(buf, sizeof buf, "SCORE %06d", G.score);
     draw_text_shadow(188 * s, 10 * s, buf, 0xf8fafc, 1.0f, 1);
@@ -391,8 +391,8 @@ static void draw_title(void)
     panel(pw, ph, &px, &py);
 
     int titleScale = W >= 900 ? 3 : 2;
-    draw_text_center(W * 0.5f, py + 36 * s, "KITTY BROKEOUT", 0x7dd3fc, 0.22f, titleScale);
-    draw_text_center(W * 0.5f - 2, py + 34 * s - 2, "KITTY BROKEOUT", 0xf8fafc, 1.0f, titleScale);
+    draw_text_center(W * 0.5f, py + 36 * s, "KILIX BROKEOUT", 0x7dd3fc, 0.22f, titleScale);
+    draw_text_center(W * 0.5f - 2, py + 34 * s - 2, "KILIX BROKEOUT", 0xf8fafc, 1.0f, titleScale);
     draw_text_center(W * 0.5f, py + 92 * s,
                      "native C brick breaker for kitty graphics terminals",
                      0xa5b4fc, 1.0f, 1);

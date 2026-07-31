@@ -1,11 +1,14 @@
-# Kitty Brokeout
+# Kilix Brokeout
 
 A native C Breakout/Arkanoid-style game rendered as real pixels through the
 kitty graphics protocol. No SDL, no X11, no ncurses: the game renders a
 software RGBA framebuffer, compresses it with zlib, and streams it to the
 terminal as kitty image frames.
 
-![Kitty Brokeout gameplay screenshot](docs/screenshot.png)
+![Kilix Brokeout gameplay screenshot](docs/screenshot.png)
+
+The executable remains `kitty-brokeout` for compatibility with existing Kilix
+installations and scripts.
 
 The game has a responsive playfield, multi-hit bricks, metal bricks, explosive
 bricks, speed bricks, falling capsules, particles, ball trails, screen shake,
